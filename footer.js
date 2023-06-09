@@ -19,7 +19,7 @@ footer.innerHTML = `
       
 
       <div class="legal">
-        <p>Global Connect &copy; 2023 Copyright.</p>
+        <p>GlobalConnect PM Solutions &copy; 2023 Copyright.</p>
       </div>
     
 
