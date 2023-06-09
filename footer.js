@@ -3,7 +3,7 @@ footer.classList.add('footer')
 
 footer.innerHTML = `
 
-      <h1 class="footer__logo">Global Connect Consulting Services</h1>
+      <h1 class="footer__logo">GlobalConnect PM Solutions</h1>
         <p>The way to GO.</p>
 
         <h2>Contact</h2>
