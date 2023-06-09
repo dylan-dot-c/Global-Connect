@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    
+    <title>FAQs</title>
+
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            background: #2c0282;
+            font-family: "inter";
+            color: skyblue;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        main {
+            padding: 30px 80px;
+            margin: 0 auto;
+            max-width: 700px;
+            width: 100%;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        h1 span {
+            font-size: 20px;
+            font-weight: lighter;
+        }
+
+        .container {
+/*             height: 35px; */
+            transition: 1s;
+            /* background: white; */
+/*             overflow: auto; */
+box-sizing: border-box;
+padding: 20px 10px;
+            position: relative;
+            /* max-width: 500px; */
+            margin-bottom: 20px;
+            /* border-radius: 0 0 10px 10px; */
+            border-bottom: 2px solid rgb(255, 255, 255);
+            cursor: pointer;
+            padding-bottom: .5rem;
+            text-overflow: ellipsis;
+            /* border: 3px solid red; */
+
+        }
+
+        .question.open+.answer {
+            display: block;
+        }
+
+        .container span {
+            font-family: monospace;
+            font-size: 20px;
+            position: absolute;
+            right: 3px;
+            top: 20px;
+            color: #fff;
+            /* transform: rotate(-90deg); */
+            transition: .5s;
+
+        }
+
+        /* .container:hover .answer{
+            display: block;
+        } */
+
+        .container:hover span {
+            transform: rotate(90deg);
+        }
+
+        .question {
+            font-size: 20px;
+            font-weight: 700;
+            /* width: 100%; */
+            /* height: 40px; */
+            overflow: auto;
+            /* padding: 5px 10px; */
+            color: rgb(255, 255, 255);
+            /* background: red; */
+            padding-bottom: 10px;
+        }
+
+        .answer {
+            padding-bottom: 10px;
+            display: none;
+        }
+
+        .header100 {
+            text-align: center;
+        }
+
+        @media screen and (max-width: 600px) {
+            .question {
+                margin-bottom: 20px;
+                /* font-size: 15px; */
+            }
+
+            .answer {
+                font-size: 13px;
+            }
+
+            .container:hover {
+                height: 200px;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <script src="header.js">
+
+    </script>
+    <div class="header100">
+        <h1>F <span>to the</span> A <span>to the</span> Q <span>s</span></h1>
+        <p>Here is a list of frequenly asked questions</p>
+    </div>
+
+    <!-- Q: How does GlobalConnect PM Solutions determine pricing for its services?
+A: GlobalConnect PM Solutions offers flexible pricing options, including hourly rates based on consultants' experience and seniority, project-based fees agreed upon for the entire project, retainer models for ongoing consulting services, and base + commission structures tied to the value generated for the client. -->
+    <main>
+        <div
+         class="container">
+         <span><i class="fa-solid fa-angle-right"></i></span>
+            <div class="question">What services does GlobalConnect PM Solutions offer?</div>
+            <div class="answer">GlobalConnect PM Solutions offers a comprehensive range of consulting services, including digital transformation, Agile methodologies, mergers and acquisitions, operations consulting, accounting services, private equity support, sales and marketing strategies, strategy formulation, human resources consulting, and risk management.
+            
+            </div>
+        </div>
+
+        <div
+         class="container">
+         <span><i class="fa-solid fa-angle-right"></i></span>
+            <div class="question">How does GlobalConnect PM Solutions determine pricing for its services?</div>
+            <div class="answer">GlobalConnect PM Solutions offers flexible pricing options, including hourly rates based on consultants' experience and seniority, project-based fees agreed upon for the entire project, retainer models for ongoing consulting services, and base + commission structures tied to the value generated for the client.
+            
+            </div>
+        </div>
+
+        
+
+        <div
+         class="container">
+         <span><i class="fa-solid fa-angle-right"></i></span>
+            <div class="question">Where does GlobalConnect PM Solutions operate?</div>
+            <div class="answer">GlobalConnect PM Solutions operates globally, both physically and virtually. We have physical offices in key business locations, and we also utilize virtual platforms and online communication tools to efficiently serve clients across the globe.
+            
+            </div>
+        </div>
+
+
+        <div
+         class="container">
+         <span><i class="fa-solid fa-angle-right"></i></span>
+            <div class="question">How can I engage with GlobalConnect PM Solutions?</div>
+            <div class="answer">You can engage with GlobalConnect PM Solutions by contacting us through our website or reaching out to our team directly. We will be happy to discuss your specific needs and tailor our consulting services to meet your requirements.
+            
+            </div>
+        
+        </div>
+
+        <div class="container">
+            <span><i class="fa-solid fa-angle-right"></i></span>
+            <div class="question">How does GlobalConnect PM Solutions ensure the quality of its consulting services?</div>
+            <div class="answer">GlobalConnect PM Solutions emphasizes hiring highly qualified consultants who undergo a rigorous selection process. We also implement well-structured and efficient processes across all aspects of the business, ensuring consistency, quality, and client satisfaction.
+            
+            </div>
+        </div>
+
+        <div
+         class="container">
+         <span><i class="fa-solid fa-angle-right"></i></span>
+            <div class="question">Can GlobalConnect PM Solutions provide examples of successful projects or client success stories?</div>
+            <div class="answer">Yes, GlobalConnect PM Solutions can provide case studies, testimonials, and success stories that highlight our expertise and the value we have delivered to our clients. These tangible proofs demonstrate our ability to drive positive results and transform organizations.
+            
+            </div>
+        </div>
+
+        <div
+         class="container">
+         <span><i class="fa-solid fa-angle-right"></i></span>
+            <div class="question">How does GlobalConnect PM Solutions stay up-to-date with industry trends and best practices?</div>
+            <div class="answer">GlobalConnect PM Solutions actively participates in industry events, conferences, and professional networks. Our consultants continuously update their knowledge and skills to stay at the forefront of industry trends, ensuring that we provide the latest insights and best practices to our clients.
+            
+            </div>
+        </div>
+
+        <div class="container">
+            <span><i class="fa-solid fa-angle-right"></i></span>
+            <div class="question">Is GlobalConnect PM Solutions suitable for both small and large businesses?</div>
+            <div class="answer">
+                Yes, GlobalConnect PM Solutions caters to businesses of all sizes. Whether you are a small startup or a large enterprise, our consulting services can be tailored to meet your specific needs and goals.
+            
+            </div>
+        </div>
+
+        <div class="container">
+            <span><i class="fa-solid fa-angle-right"></i></span>
+            <div class="question">Does GlobalConnect PM Solutions offer customized solutions?</div>
+            <div class="answer">Yes, GlobalConnect PM Solutions understands that each business is unique, and we offer customized solutions to address your specific challenges and requirements. We work closely with our clients to develop strategies and implement solutions that align with their goals and objectives.
+            
+            </div>
+        </div>
+
+        <div
+         class="container">
+            <span><i class="fa-solid fa-angle-right"></i></span>
+            <div class="question">How can I stay updated on GlobalConnect PM Solutions' latest insights and industry updates?</div>
+            <div class="answer">You can stay updated by following our LinkedIn page, where we regularly share industry insights, thought leadership articles, success stories, and job openings. You can also visit our website and subscribe to our newsletter for the latest updates.
+            </div>
+        </div>
+
+
+    </main>
+
+    <script src="script.js"></script>
+    <script src="footer.js"></script>
+
+
+    <script defer>
+        const containers = document.querySelectorAll('.question')
+
+        containers.forEach( cont => {
+            cont.addEventListener('click', (e) => {
+                e.target.classList.toggle('open');
+            })
+        })
+    </script>
+</body>
+</html>
